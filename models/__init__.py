@@ -1,1 +1,2 @@
-__all__ = ['ingredient', 'order', 'pizza', 'transaction']
+__all__ = ['ingredient', 'pizza', 'order',
+           'transaction', 'ingredient_pizza']

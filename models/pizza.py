@@ -1,6 +1,5 @@
 from app import db
 
-
 class Pizza(db.Model):
     __tablename__ = 'pizza'
 
@@ -9,7 +8,8 @@ class Pizza(db.Model):
     created_at = db.Column(db.DateTime, default=db.func.now())
     updated_at = db.Column(db.DateTime, onupdate=db.func.current_timestamp())
 
-    orders = db.relationship('Order', back_populates='pizza')
+    orders = db.relationship("Order", back_populates='pizza')
+    ingredients = db.relationship("Ingredient", secondary="ingredient_pizza")
 
     def __repr__(self):
         return '<id {}>'.format(self.id)

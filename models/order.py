@@ -1,6 +1,5 @@
 from app import db
 
-
 class Order(db.Model):
     __tablename__ = 'order'
 
@@ -10,9 +9,9 @@ class Order(db.Model):
     updated_at = db.Column(db.DateTime, onupdate=db.func.current_timestamp())
 
     pizza_id = db.Column(db.Integer, db.ForeignKey('pizza.id'))
-    pizza = db.relationship('Pizza', back_populates='orders')
+    pizza = db.relationship("Pizza", back_populates='orders')
 
-    transactions = db.relationship('Transaction', back_populates='order')
+    transactions = db.relationship("Transaction", back_populates='order')
 
     def __repr__(self):
         return '<id {}>'.format(self.id)
