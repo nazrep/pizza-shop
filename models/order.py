@@ -12,6 +12,8 @@ class Order(db.Model):
     pizza_id = db.Column(db.Integer, db.ForeignKey('pizza.id'))
     pizza = db.relationship('Pizza', back_populates='orders')
 
+    transactions = db.relationship('Transaction', back_populates='order')
+
     def __repr__(self):
         return '<id {}>'.format(self.id)
 

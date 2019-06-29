@@ -9,6 +9,9 @@ class Transaction(db.Model):
     created_at = db.Column(db.DateTime, default=db.func.now())
     updated_at = db.Column(db.DateTime, onupdate=db.func.current_timestamp())
 
+    order_id = db.Column(db.Integer, db.ForeignKey('order.id'))
+    order = db.relationship('Order', back_populates='transactions')
+
     def __repr__(self):
         return '<id {}>'.format(self.id)
 
