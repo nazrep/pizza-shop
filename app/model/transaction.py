@@ -7,8 +7,7 @@ class Transaction(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     amount = db.Column(db.Integer, nullable=False)
     created_at = db.Column(db.DateTime, default=db.func.now())
-    updated_at = db.Column(db.DateTime(), onupdate=func.current_timestamp())
-    order_id = db.Column(db.Integer, nullable=False)
+    updated_at = db.Column(db.DateTime, onupdate=db.func.current_timestamp())
 
     def __repr__(self):
         return '<id {}>'.format(self.id)
@@ -19,5 +18,4 @@ class Transaction(db.Model):
             'amount': self.amount,
             'created_at': self.created_at,
             'updated_at': self.updated_at,
-            'order_id': self.order_id,
         }

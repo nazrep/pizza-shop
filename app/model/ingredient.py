@@ -9,7 +9,7 @@ class Ingredient(db.Model):
     description = db.Column(db.String, nullable=False)
     price = db.Column(db.Integer, default=False)
     created_at = db.Column(db.DateTime, default=db.func.now())
-    updated_at = db.Column(db.DateTime(), onupdate=func.current_timestamp())
+    updated_at = db.Column(db.DateTime, onupdate=db.func.current_timestamp())
 
     def __repr__(self):
         return '<id {}>'.format(self.id)
@@ -21,5 +21,5 @@ class Ingredient(db.Model):
             'description': self.description,
             'price': self.price,
             'created_at': self.created_at,
-            'updated_at': self.updated_at_at
+            'updated_at': self.updated_at
         }

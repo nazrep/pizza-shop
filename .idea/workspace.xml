@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6bc8b5f-0cc1-4cf0-b55c-3660ff105dd3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pizza-shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pizza-shop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/ingredient.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/ingredient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/order.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/pizza.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/pizza.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/transaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/transaction.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +51,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -69,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1561830368734</updated>
       <workItem from="1561830370168" duration="323000" />
-      <workItem from="1561831158500" duration="1115000" />
+      <workItem from="1561831158500" duration="1534000" />
     </task>
     <servers />
   </component>
