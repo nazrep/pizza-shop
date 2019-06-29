@@ -2,12 +2,15 @@ from app import db
 
 
 class Order(db.Model):
-    __tablename__ = 'orders'
+    __tablename__ = 'order'
 
     id = db.Column(db.Integer, primary_key=True)
     client = db.Column(db.String, nullable=False)
     created_at = db.Column(db.DateTime, default=db.func.now())
     updated_at = db.Column(db.DateTime, onupdate=db.func.current_timestamp())
+
+    pizza_id = db.Column(db.Integer, db.ForeignKey('pizza.id'))
+    pizza = db.relationship('Pizza', back_populates='orders')
 
     def __repr__(self):
         return '<id {}>'.format(self.id)

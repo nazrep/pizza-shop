@@ -5,11 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/pizza-shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pizza-shop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/ingredient.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/ingredient.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/order.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/order.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/pizza.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/pizza.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/transaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/transaction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/ingredient.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/ingredient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/order.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/pizza.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/pizza.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/transaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/transaction.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

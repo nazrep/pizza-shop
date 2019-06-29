@@ -2,7 +2,7 @@ from app import db
 
 
 class Transaction(db.Model):
-    __tablename__ = 'transactions'
+    __tablename__ = 'transaction'
 
     id = db.Column(db.Integer, primary_key=True)
     amount = db.Column(db.Integer, nullable=False)
